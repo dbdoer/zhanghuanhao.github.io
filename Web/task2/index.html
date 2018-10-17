@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+</head>
+<body>
+<div class="head">
+    <h1 class="title">Web程序设计</h1>
+    <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Home</a></li>
+    </ul>
+</div>
+<div class="list">
+    <h2>HTML & CSS</h2>
+    <h3><a href="#html">HTML</a></h3>
+    <ul>
+        <li><a href="#title">&lt;title&gt;</a></li>
+        <li><a href="#meta">&lt;meta&gt;</a></li>
+        <li><a href="#p">&lt;p&gt;</a></li>
+        <li><a href="#br">&lt;br/&gt;</a></li>
+        <li><a href="#h1-h6">&lt;h1&gt;-&lt;h6&gt;</a></li>
+        <li><a href="#hr">&lt;hr&gt;</a></li>
+        <li><a href="#a">&lt;a&gt;</a></li>
+        <li><a href="#img">&lt;img&gt;</a></li>
+    </ul>
+    <h3><a href="#css">CSS</a></h3>
+    <ul>
+        <li><a href="#color">颜色属性</a></li>
+        <li><a href="#font">字体属性</a></li>
+        <li><a href="#text">文本属性</a></li>
+        <li><a href="#background">背景属性</a></li>
+    </ul>
+</div>
+<div class="main">
+    <h2 class="main_title" id="html">HTML</h2>
+    <dt id="title">网页的标题：&lt;title&gt;</dt>
+    <blockquote>放在网页的head部分里面
+        <br/>在浏览器的标题栏显示并且作为收藏网页时的标题
+        <h3>例子：</h3>
+        <pre>
+&lt;html&gt;
+  &lt;head&gt;
+    <code>&lt;title&gt;HTML Basics&lt;/title&gt;</code>
+  &lt;/head&gt;
+  &lt;body&gt;
+    ...
+  &lt;/body&gt;
+&lt;/html&gt;
+		</pre>
+    </blockquote>
+    <hr /><br />
+    <dt id="meta">网页元数据：&lt;meta&gt;</dt>
+    <blockquote>
+        &lt;meta&gt;标签是 HTML 语言头部的一个辅助性标签，提供有关页面的元信息。
+        <h3>例子：</h3>
+        <pre>
+&lt;head&gt;
+    &lt;meta name="description" content="免费web教程"&gt;
+    &lt;meta name="keywords" content="HTML,CSS,XML,JavaScript"&gt;
+    &lt;meta name="author" content="W3Cschool"&gt;
+    &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+		</pre>
+    </blockquote>
+    <hr /><br />
+    <dt id="p">段落：&lt;p&gt;</dt>
+    <blockquote>&lt;p&gt;标签表示文本的段落，段落通常在可视媒体中表示为文本块，是块级元素。
+        <h3>实例</h3>
+        <pre>&lt;p&gt;This is some text in a very short paragraph&lt;/p&gt;</pre>
+    </blockquote>
+    <hr /><br />
+    <dt id="br">换行符：&lt;br /&gt;</dt>
+    <blockquote>
+        标签是空标签，可插入一个简单的换行符。
+        <h3>例子：</h3>
+        <pre>
+&lt;p&gt;
+    使用 br 元素&lt;br /&gt;在文本中&lt;br /&gt;换行。
+&lt;/p&gt;
+        </pre>
+    </blockquote>
+    <hr /><br />
+    <dt id="h1-h6">标题：&lt;h1&gt;-&lt;h6&gt;</dt>
+    <blockquote>&lt;h1&gt;-&lt;h6&gt;标签用来定义 HTML 标题，表示了 HTML 网页中六个级别的标题。
+        <h3>例子：</h3>
+        <pre>
+&lt;h1&gt;这是标题一&lt;h1&gt;
+&lt;h2&gt;这是标题二&lt;h2&gt;
+&lt;h3&gt;这是标题三&lt;h3&gt;
+&lt;h4&gt;这是标题四&lt;h4&gt;
+&lt;h5&gt;这是标题五&lt;h5&gt;
+&lt;h6&gt;这是标题六&lt;h6&gt;
+        </pre>
+    </blockquote>
+    <hr /><br />
+    <dt id="hr">水平线：&lt;hr&gt;</dt>
+    <blockquote>
+        &lt;hr /&gt;标签表示段落级元素之间的主题划分。
+        <h3>例子：</h3>
+        <pre>
+&lt;h1&gt;This is header 1&lt;/h1&gt;
+<code>&lt;hr /&gt;</code>
+&lt;p&gt;This is some text&lt;/p&gt;
+		</pre>
+    </blockquote>
+    <hr /><br />
+    <dt id="a">链接：&lt;a&gt;</dt>
+    <blockquote>
+        &lt;a&gt;标签定义超链接，用于从一张页面链接到另一张页面。<br />
+        &lt;a&gt;元素最重要的属性是 href 属性，用于创建指向另外一个文档的链接（或超链接）。
+        <h3>例子：</h3>
+        <pre>&lt;a href="http://www.w3school.com.cn"&gt;W3School&lt;/a&gt;</pre>
+    </blockquote>
+    <hr /><br />
+    <dt id="img">图像：&lt;img&gt;</dt>
+    <blockquote>
+        &lt;img&gt;标签用于展示 HTML 页面中的图像，使得页面能够“图文并茂”。
+        <h3>实例</h3>
+        <pre>
+    &lt;img <code>src=&quot;xxx.jpg&quot;</code>  alt=&quot;图片不存在时显示&quot; /&gt;
+    </pre>
+    </blockquote>
+    <hr /><br /><br />
+    <h2 class="main_title" id="css">CSS</h2>
+    <dt id="color">颜色属性</dt>
+    <blockquote>
+        color 元素中的文本颜色<br/>background-color 元素的背景属性
+        <br/>CSS颜色使用组合了红绿蓝颜色值 (RGB) 的十六进制 (hex) 表示法进行定义。
+        <br />对光源进行设置的最低值可以是 0（十六进制 00）。最高值是 255（十六进制 FF）。
+        <br />css颜色十六进制值
+    </blockquote>
+    <hr /><br />
+    <dt id="font">字体属性</dt>
+    <blockquote>font简写属性。作用是把所有针对字体的属性设置在一个声明中。<br />
+        <ul>
+            <li>font-family 设置字体系列。</li>
+            <li>font-size	设置字体的尺寸。</li>
+            <li>font-style	设置字体风格。</li>
+            <li>font-weight	设置字体的粗细。</li>
+        </ul>
+        除了各种特定的字体系列外，CSS 定义了 5 种通用字体系列：<br />
+        <ul>
+            <li>Serif 字体</li>
+            <li>Sans-serif 字体</li>
+            <li>Monospace 字体</li>
+            <li>Cursive 字体</li>
+            <li>Fantasy 字体</li>
+        </ul>
+
+        font-size 值可以是绝对或相对值。<br />
+        <h3>例子：</h3>
+        <pre>
+h1 {font-size:3.75em;}
+h2 {font-size:40px;}
+p {font-size:100%;}
+			</pre>
+        <br />
+        font-style 属性最常用于规定斜体文本。<br />
+        该属性有三个值：<br />
+        <ul>
+            <li>normal - 文本正常显示</li>
+            <li>italic - 文本斜体显示</li>
+            <li>oblique - 文本倾斜显示</li>
+        </ul>
+        <br />
+        font-weight 属性设置文本的粗细。<br />
+        使用 bold 关键字可以将文本设置为粗体。<br />
+        关键字 100 ~ 900 为字体指定了 9 级加粗度。
+    </blockquote>
+    <hr /><br />
+    <dt id="text">文本属性</dt>
+    <blockquote>
+        <ul>
+            <li>color	设置文本颜色</li>
+            <li>direction	设置文本方向</li>
+            <li>letter-spacing	设置字符间距</li>
+            <li>line-height	设置行高</li>
+            <li>text-align	对齐元素中的文本</li>
+            <li>text-decoration	向文本添加修饰</li>
+            <li>text-indent	缩进元素中文本的首行</li>
+            <li>text-transform	控制元素中的字母</li>
+            <li>text-shadow	设置文本阴影</li>
+            <li>word-spacing	设置字间距</li>
+        </ul>
+    </blockquote>
+    <hr /><br />
+    <dt id="background">背景属性</dt>
+    <blockquote>
+        <ul>
+            <li>background	简写属性，作用是将背景属性设置在一个声明中</li>
+            <li>background-attachment	背景图像是否固定或者随着页面的其余部分滚动</li>
+            <li>background-color	设置元素的背景颜色</li>
+            <li>background-image	把图像设置为背景</li>
+            <li>background-position	设置背景图像的起始位置</li>
+            <li>background-repeat	设置背景图像是否及如何重复</li>
+        </ul>
+    </blockquote>
+    <hr /><br />
+    <h3>您已到末尾啦~~~o(*￣▽￣*)o</h3>
+</div>
+<footer class="copyright"><p>Copyright © 2018 张桓皓. All Rights Reserved</p></footer>
+</body>
+</html>

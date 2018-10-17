@@ -1,0 +1,116 @@
+body {
+    color: whitesmoke;
+    background-image: url("../images/top_bg.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    font-family: "微软雅黑 Light", sans-serif;
+}
+.head{
+    border-radius: 10px;
+    background-color: transparent;
+    position: fixed;
+    top: 10px;
+    left: 7%;
+    width: 88%;
+    height: 50px;
+    border: 3px ridge whitesmoke;
+    line-height:25px;
+    overflow: hidden;
+}
+.head ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: auto;
+}
+.head li{
+    float: right;
+}
+.head a{
+    display: block;
+    width: 30px;
+    color: cornsilk;
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 14px;
+    text-decoration: none;
+}
+.head a:hover{
+    color: darkorange;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.title{
+    float:left;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 20px;
+    color: #e7e7e7;
+}
+.list{
+    border: 4px ridge whitesmoke;
+    background-color: transparent;
+    width: 13%;
+    height: 80%;
+    margin-left: 80%;
+    border-radius: 10px;
+    position: fixed;
+    top: 80px;
+    padding-left: 10px;
+    overflow: auto;
+}
+.list a:visited,a:link{
+    color: whitesmoke;
+    text-decoration: none;
+ }
+.list a:hover{
+    color: red;
+    text-decoration: none;
+}
+.list h2{
+    color: springgreen;
+    font-weight: bolder;
+}
+.main{
+    background-color: transparent;
+    width: 70%;
+    height: 78%;
+    margin-left: 7%;
+    border-radius: 10px;
+    position: fixed;
+    top: 80px;
+    padding-left: 20px;
+    overflow: auto;
+    padding-top: 15px;
+}
+.main dt{
+    size: 6pt;
+    color: honeydew;
+}
+pre {
+    margin: 5px;
+    padding:5px;
+    border: 1px dotted #785;
+    background-color:#CCCCCC;
+    color: black;
+}
+code {
+    color: #0000dd;
+}
+.main_title{
+    color: springgreen;
+}
+.main dt{
+    color: gold;
+}
+.main blockquote{
+    color: aqua;
+}
+.copyright{
+    bottom: 20px;
+    color: white;
+    text-align: center;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+}

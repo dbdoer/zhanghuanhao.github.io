@@ -1,0 +1,69 @@
+body{
+    font-family: Laksaman, sans-serif;
+    background: black url("../background.jpg") no-repeat;
+    overflow: auto;
+    color: honeydew;
+}
+.body{
+    margin-left: 30%;
+    width: 50%;
+}
+.buttons{
+    display: block;
+    margin: 20px auto;
+}
+.body button{
+    float: left;
+    display: block;
+    width: 130px;
+    height: 34px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: large;
+    background-color: lightblue;
+    border-color: mediumblue;
+
+}
+.body button[id="deselect"],button[id="remove"],button[id="save"] {
+    margin-left: 25px;
+}
+.body button[id="select"],button[id="deselect"],button[id="remove"]{
+    margin-top: 10px;
+}
+.body button[id="select"]{
+    clear: both;
+}
+.body button:hover{
+    display: block;
+    background-color: mediumblue;
+    color: white;
+}
+
+
+.to-do textarea{
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+
+.to-do{
+    clear: both;
+}
+.to-do ul{
+    padding-top: 20px;
+    font-size: xx-large;
+    overflow: hidden;
+}
+.to-do ul li{
+    font-size: x-large;
+    width: 50%;
+    height: auto;
+    margin-top: 1px;
+}
+.copyright{
+    bottom: 20px;
+    text-align: center;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+}
