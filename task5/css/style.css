@@ -4,7 +4,7 @@ body{
     overflow: auto;
     color: honeydew;
 }
-.body{
+.to-do{
     margin-left: 30%;
     width: 50%;
 }
@@ -12,7 +12,7 @@ body{
     display: block;
     margin: 20px auto;
 }
-.body button{
+.to-do button{
     float: left;
     display: block;
     width: 130px;
@@ -24,37 +24,36 @@ body{
     border-color: mediumblue;
 
 }
-.body button[id="deselect"],button[id="remove"],button[id="save"] {
+.to-do button[id="deselect"],button[id="remove"],button[id="save"] {
     margin-left: 25px;
 }
-.body button[id="select"],button[id="deselect"],button[id="remove"]{
+.to-do button[id="select"],button[id="deselect"],button[id="remove"]{
     margin-top: 10px;
 }
-.body button[id="select"]{
+.to-do button[id="select"]{
     clear: both;
 }
-.body button:hover{
+.to-do button:hover{
     display: block;
     background-color: mediumblue;
     color: white;
 }
 
 
-.to-do textarea{
+.main textarea{
     border-radius: 15px;
     font-size: x-large;
 }
-
-
-.to-do{
+.main{
     clear: both;
 }
-.to-do ul{
+.main ul{
     padding-top: 20px;
     font-size: xx-large;
     overflow: hidden;
+    clear: both;
 }
-.to-do ul li{
+.main ul li{
     font-size: x-large;
     width: 50%;
     height: auto;
