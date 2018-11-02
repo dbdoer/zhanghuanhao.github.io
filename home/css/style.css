@@ -2204,58 +2204,6 @@ img{
 /*** 
 
 ====================================================================
-	Solution Section
-====================================================================
-
-***/
-
-.solution-section{
-	position:relative;
-	padding:150px 0px 100px;
-	background-color:#f2f2f2;
-}
-
-.pie-box{
-	position:relative;
-}
-
-.pie-box .inner-box{
-	position:relative;
-	text-align:center;
-}
-
-.pie-box .inner-box .image-box{
-	position:relative;
-}
-
-.pie-box .inner-box .image-box img{
-	position:relative;
-	max-width:100%;
-	width:100%;
-}
-
-.pie-box .inner-box h3{
-	position:relative;
-	color:#4f4f4f;
-	font-size:17px;
-	padding-left:40px;
-	font-weight:600;
-	margin-top:10px;
-	display:inline-block;
-	text-transform:uppercase;
-}
-
-.pie-box .inner-box h3 .icon{
-	position:absolute;
-	left:0px;
-	top:0px;
-	font-size:20px;
-	color:#008ffe;
-}
-
-/*** 
-
-====================================================================
 	Footer
 ====================================================================
 
