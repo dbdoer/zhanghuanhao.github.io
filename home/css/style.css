@@ -91,7 +91,6 @@ p{
 .medium-container{
 	max-width:850px;
 }
-.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 .page-wrapper{
 	position:relative;
 	margin:0 auto;
@@ -1117,6 +1116,7 @@ img{
 .gallery-section{
 	position:relative;
 	padding-top:140px;
+	background-color: #f2f2f2;
 }
 
 .gallery-section .filters{
@@ -1251,196 +1251,6 @@ img{
 	display:none;
 }
 
-/*** 
-
-====================================================================
-	Testimonial Section
-====================================================================
-
-***/
-
-.testimonial-section{
-	position: relative;
-	padding: 100px 0px 120px;
-}
-
-.testimonial-block{
-	position: relative;
-}
-
-.testimonial-block .inner-box{
-	position: relative;
-	text-align: center;
-}
-
-.testimonial-block .inner-box .image-box{
-	position: relative;
-	width: 75px;
-	height: 75px;
-	margin: 0 auto;
-	overflow: hidden;
-	border: 2px solid #008ffe;
-	border-radius: 50%;
-}
-
-.testimonial-block .inner-box .image-box img{
-	border-radius:50%;
-}
-
-.testimonial-block .inner-box h4{
-	position: relative;
-	font-size: 17px;
-	color: #4f4f4f;
-	font-weight: 700;
-	margin-top: 32px;
-}
-
-.testimonial-block .inner-box .designation{
-	color: #4f4f4f;
-	font-weight: 400;
-}
-
-.testimonial-block .inner-box .text{
-	max-width: 835px;
-	font-size: 17px;
-	color: #4f4f4f;
-	margin: 0 auto;
-	font-style: italic;
-	margin-top: 30px;
-	line-height: 1.6em;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.testimonial-section .owl-controls{
-	margin-top:30px;
-}
-
-.testimonial-section .owl-controls .owl-dots .owl-dot span{
-	width:13px;
-	height:13px;
-	border-radius:50%;
-	background:#e5e5e5;
-}
-
-.testimonial-section .owl-controls .owl-dots .owl-dot.active span,
-.testimonial-section .owl-controls .owl-dots .owl-dot:hover span{
-	background-color:#008ffe;
-	border-color:#008ffe;
-}
-
-/*** 
-
-====================================================================
-	Fact Counter style
-====================================================================
-
-***/
-
-.fact-counter-column{
-	position:relative;
-	background-attachment: fixed;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding:120px 0px 80px 0px;
-}
-
-.fact-counter-column:before{
-	position: absolute;
-	content: '';
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	display: block;
-	background-color: rgba(255,255,255,0.70);
-}
-
-.fact-counter{
-	position:relative;
-	color:#103d68;
-    margin: 0 auto;
-}
-
-.fact-counter .row{
-	margin: 0px -50px;
-}
-
-.fact-counter .column{
-	position:relative;
-	z-index:5;
-	padding: 0px 50px;
-	margin-bottom:40px;
-}
-
-.fun-fact-section.style-two .fact-counter .column{
-	padding-left:0px;	
-}
-
-.fact-counter .column .inner{
-	position:relative;
-	text-align:center;
-	padding: 30px 15px;
-	border-radius: 10px;
-	background-color: #ffffff;
-}
-
-.fact-counter .column .inner .icon{
-	position: relative;
-	color: #008ffe;
-	font-size: 36px;
-	margin-bottom: 15px;
-    margin-bottom: 18px;
-    display: inline-block;
-}
-
-.fact-counter .count-outer{
-	position:relative;
-	font-size:50px;
-	line-height:1em;
-	font-weight:600;
-	margin:0px 0px;
-}
-
-.fact-counter .count-outer .count-text{
-	position:relative;
-	font-weight:300;
-	color:#4f4f4f;
-	font-size:50px;
-}
-
-.fact-counter .column .counter-title{
-	position:relative;
-	font-size:17px;
-	font-weight:700;
-	color:#008ffe;
-	margin-top: 20px;
-	text-transform: uppercase;
-}
-
-.fact-counter.style-two .column .inner{
-	background:none;
-	padding-bottom:0px;
-}
-
-.fact-counter.style-two .column .progress-box{
-	margin-bottom:0px;
-}
-
-.fact-counter.style-two .column .cartegory{
-	color:#4f4f4f;
-	font-size:17px;
-	text-align:center;
-	font-weight:700;
-	margin-top:20px;
-	text-transform:uppercase;
-}
-
-.fact-counter.style-two .column .percentage{
-	color:#4f4f4f;
-	font-size:50px;
-	font-weight:300;
-}
 
 /*** 
 
@@ -1450,16 +1260,31 @@ img{
 
 ***/
 
-.team-section{
+.people-section {
 	position: relative;
 	padding: 110px 0px 100px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: rgba(255, 255, 255, 0.90);
 }
 
-.team-section .row{
+.people-section:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.people-section .row {
 	margin: 0px -35px;
 }
 
-.team-section .team-member{
+.people-section .team-member {
 	position: relative;
 	padding: 0px 35px;
 	margin-bottom:25px;
@@ -1498,7 +1323,7 @@ img{
 	padding: 32px 25px 25px;
 	text-align: center;
     border-radius: 10px;
-	background-color: rgba(0,143,254,0.90);
+	background-color: rgba(0, 143, 254, 0.70);
 	transition:all 0.8s ease;
 	-moz-transition:all 0.8s ease;
 	-webkit-transition:all 0.8s ease;
@@ -1560,247 +1385,7 @@ img{
 /*** 
 
 ====================================================================
-	Subscribe Form
-====================================================================
-
-***/
-
-.subscribe-form{
-	position: relative;
-	background-attachment: fixed;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding:115px 0px 40px 0px;
-}
-
-.subscribe-form:before{
-	position: absolute;
-	content: '';
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	display: block;
-	background-color: rgba(255,255,255,0.70);
-}
-
-.subscribe-form .subscribe-inner{
-	max-width: 780px;
-	margin: 0 auto;
-}
-
-.subscribe-form .subscribe-inner .column{
-	margin-bottom: 40px;
-}
-
-.subscribe-form .subscribe-inner .icon-box{
-	color: rgba(79,79,79,0.35);
-	font-size: 160px;
-	line-height: 1em;
-	margin-top: 25px;
-}
-
-.subscribe-form .subscribe-inner .inner-box{
-	position: relative;
-}
-
-.subscribe-form .subscribe-inner .inner-box h3{
-	position: relative;
-	color: #242424;
-	font-weight: 300;
-	font-size: 33px;
-}
-
-.subscribe-form .subscribe-inner .inner-box .text{
-	position: relative;
-	color: #4f4f4f;
-	font-size: 15px;
-	line-height: 1.8em;
-	margin-top: 5px;
-}
-
-/*** 
-
-====================================================================
-	Subscribe Box
-====================================================================
-
-***/
-
-.subscribe-box{
-	position:relative;
-	max-width:530px;
-	margin:0 auto 40px;
-	margin-top: 15px;
-}
-
-.subscribe-box .form-group{
-	position:relative;
-	margin-bottom:0px;
-	text-align:left;
-}
-
-.subscribe-box .form-group input[type="email"],
-.subscribe-box .form-group input[type="search"]{
-	position:relative;
-	display:block;
-	width:100%;
-	line-height:28px;
-	padding:10px 15px;
-	background-color:rgba(255,255,255,0.38);
-	border:1px solid #008ffe;
-	height:50px;
-	border-radius:8px;
-	-moz-transition:all 0.5s ease;
-	-webkit-transition:all 0.5s ease;
-	-ms-transition:all 0.5s ease;
-	-o-transition:all 0.5s ease;
-	transition:all 0.5s ease;	
-}
-
-.subscribe-box .form-group input[type="text"]:focus,
-.subscribe-box .form-group input[type="search"]:focus,
-.subscribe-box .form-group textarea:focus{
-	border-color:#008ffe;
-}
-
-.subscribe-box .form-group button{
-	position:absolute;
-	right:0px;
-	top:0px;
-	display:block;
-	width:158px;
-	height:50px;
-	text-align:center;
-	margin:0px;
-	padding:11px 30px;
-	line-height:24px;
-	font-size:14px;
-	font-weight:700;
-	background:#008ffe;
-	color:#ffffff;
-	text-transform:uppercase;
-	letter-spacing:2px;
-	border-radius:0px 8px 8px 0px;
-}
-
-/*** 
-
-====================================================================
-	Price Section
-====================================================================
-
-***/
-
-.price-section{
-	position: relative;
-	padding: 120px 0px 80px;
-}
-
-.price-box{
-	position:relative;
-	margin-bottom:45px;
-}
-
-.price-box .inner-box{
-	position: relative;
-	padding: 12px;
-	text-align: center;
-	border-radius: 10px;
-	background-color: #f2f2f2;
-}
-
-.price-box .inner-box .icon-box{
-	position:relative;
-	width: 70px;
-	height: 70px;
-	margin: 0 auto;
-	color: #ffffff;
-	font-size: 24px;
-	text-align: center;
-	line-height: 58px;
-	margin-top: -46px;
-	border-radius: 10px;
-	border: 6px solid #ffffff;
-	background-color: #008ffe;
-}
-
-.price-box .inner-box .price{
-	position: relative;
-	color: #4f4f4f;
-	font-size: 72px;
-	font-weight: 500;
-	margin:20px 0px 35px;
-	line-height: 1em;
-	font-family: 'Raleway', sans-serif;
-}
-
-.price-box .inner-box .price sub{
-	color: #4f4f4f;
-	font-size: 35px;
-	font-weight: 300;
-}
-
-.price-box .inner-box h4{
-	background-color: #f8f8f8;
-	color: #008ffe;
-	font-size: 17px;
-	padding: 12px 0px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-.price-box .inner-box ul{
-	position: relative;
-	padding: 32px 0px;
-	background-color: #e9e9e9;
-}
-
-.price-box .inner-box ul li{
-	color: #4f4f4f;
-	font-size: 17px;
-	font-style: italic;
-	padding: 6px 0px;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.price-box .inner-box .in-touch{
-	color: #ffffff;
-	font-size: 14px;
-	padding: 12px 37px;
-	display: inline-block;
-	background-color: #008ffe;
-	text-transform: uppercase;
-	font-weight: 700;
-	margin-top: 44px;
-	margin-bottom: 30px;
-	border-radius: 6px;
-	font-family: 'Open Sans', sans-serif;
-	border:2px solid transparent;
-	-moz-transition:all 0.5s ease;
-	-webkit-transition:all 0.5s ease;
-	-ms-transition:all 0.5s ease;
-	-o-transition:all 0.5s ease;
-	transition:all 0.5s ease;
-}
-
-.price-box .inner-box .in-touch:hover{
-	color:#008ffe;
-	border-color:#008ffe;
-	background:none;
-}
-
-.blog-section{
-	position: relative;
-	padding: 110px 0px 80px;
-	background-color: #f2f2f2;
-}
-
-/*** 
-
-====================================================================
-	Blog Section
+	News Section
 ====================================================================
 
 ***/
