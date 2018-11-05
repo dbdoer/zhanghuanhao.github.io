@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72c80cf9-29c7-473d-9869-e5f62efc3adb" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/cpts_1374_cef.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/home.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/map-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -94,7 +88,7 @@
           <entry key="css" value="151" />
           <entry key="html" value="756" />
           <entry key="js" value="38" />
-          <entry key="txt" value="33" />
+          <entry key="txt" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -102,18 +96,18 @@
           <entry key="CSS" value="151" />
           <entry key="HTML" value="756" />
           <entry key="JavaScript" value="38" />
-          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="834" column="26" selection-start-line="834" selection-start-column="20" selection-end-line="834" selection-end-column="32" />
+            <state relative-caret-position="-141">
+              <caret line="752" column="45" selection-start-line="752" selection-start-column="45" selection-end-line="752" selection-end-column="45" />
               <folding>
                 <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -133,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="1387" column="8" selection-start-line="1387" selection-start-column="8" selection-end-line="1387" selection-end-column="8" />
+            <state relative-caret-position="29">
+              <caret line="1393" column="12" selection-start-line="1393" selection-start-column="4" selection-end-line="1393" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -146,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
-              <caret line="238" column="27" selection-start-line="238" selection-start-column="27" selection-end-line="238" selection-end-column="27" />
+              <caret line="238" column="28" selection-start-line="238" selection-start-column="28" selection-end-line="238" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -195,8 +189,8 @@
       <replace>Mine</replace>
       <replace>sponsors-carousel</replace>
       <replace>span</replace>
-      <replace>food-carousel</replace>
       <replace>Food</replace>
+      <replace>food-carousel</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -346,7 +340,7 @@
       <workItem from="1541422414594" duration="3656000" />
       <workItem from="1541427918833" duration="35000" />
       <workItem from="1541428000472" duration="493000" />
-      <workItem from="1541428601593" duration="5542000" />
+      <workItem from="1541428601593" duration="6191000" />
     </task>
     <task id="LOCAL-00001" summary="20181102">
       <created>1541177888380</created>
@@ -376,11 +370,27 @@
       <option name="project" value="LOCAL" />
       <updated>1541347214201</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="成功修改食物栏为滚动">
+      <created>1541434322816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541434322816</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68017000" />
+    <option name="totallyTimeSpent" value="68666000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -395,12 +405,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991317" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.26694044" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.2667719" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500528" side_tool="true" weight="0.32850778" />
-      <window_info active="true" anchor="bottom" id="调试" order="11" sideWeight="0.49947202" visible="true" weight="0.34885556" />
+      <window_info anchor="bottom" id="调试" order="11" sideWeight="0.49947202" weight="0.34885556" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32991317" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -427,7 +437,8 @@
     <MESSAGE value="20181102" />
     <MESSAGE value="修改Gallery" />
     <MESSAGE value="添加历史人物" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加历史人物" />
+    <MESSAGE value="成功修改食物栏为滚动" />
+    <option name="LAST_COMMIT_MESSAGE" value="成功修改食物栏为滚动" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -622,14 +633,21 @@
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
-          <caret line="238" column="27" selection-start-line="238" selection-start-column="27" selection-end-line="238" selection-end-column="27" />
+          <caret line="238" column="28" selection-start-line="238" selection-start-column="28" selection-end-line="238" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1393" column="12" selection-start-line="1393" selection-start-column="4" selection-end-line="1393" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="834" column="26" selection-start-line="834" selection-start-column="20" selection-end-line="834" selection-end-column="32" />
+        <state relative-caret-position="-141">
+          <caret line="752" column="45" selection-start-line="752" selection-start-column="45" selection-end-line="752" selection-end-column="45" />
           <folding>
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -645,13 +663,6 @@
             <element signature="n#style#0;n#em#4;n#div#1;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="1387" column="8" selection-start-line="1387" selection-start-column="8" selection-end-line="1387" selection-end-column="8" />
         </state>
       </provider>
     </entry>
