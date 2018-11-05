@@ -216,12 +216,11 @@
 			}
 		});    		
 	}
-	
-	//Sponsors Carousel
-	if ($('.sponsors-carousel').length) {
-		$('.sponsors-carousel').owlCarousel({
+
+    //Food Carousel
+    if ($('.food-carousel').length) {
+        $('.food-carousel').owlCarousel({
 			loop:true,
-			margin:40,
 			nav:false,
 			smartSpeed: 500,
 			autoplay: 5000,
@@ -231,16 +230,16 @@
 					items:1
 				},
 				600:{
-					items:3
+                    items: 2
 				},
 				800:{
-					items:4
+                    items: 3
 				},
 				1024:{
-					items:6
+                    items: 4
 				},
 				1200:{
-					items:6
+                    items: 4
 				}
 			}
 		});    		
