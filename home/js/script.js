@@ -40,59 +40,12 @@
 		});
 		
 		//Disable dropdown parent link
-		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
+        $('.main-header .navigation li.dropdown > a, .side-menu li.dropdown > a').on('click', function (e) {
 			e.preventDefault();
 		});
 	}
 	
-	
-	//Hidden Bar Menu Config
-	function hiddenBarMenuConfig() {
-		var menuWrap = $('.hidden-bar .side-menu');
-		// appending expander button
-		menuWrap.find('.dropdown').children('a').append(function () {
-			return '<button type="button" class="btn expander"><i class="icon fa fa-angle-down"></i></button>';
-		});
-		// hidding submenu 
-		menuWrap.find('.dropdown').children('ul').hide();
-		// toggling child ul
-		menuWrap.find('.btn.expander').each(function () {
-			$(this).on('click', function () {
-				$(this).parent() // return parent of .btn.expander (a) 
-					.parent() // return parent of a (li)
-						.children('ul').slideToggle();
-	
-				// adding class to expander container
-				$(this).parent().toggleClass('current');
-				// toggling arrow of expander
-				$(this).find('i').toggleClass('fa-angle-up fa-angle-down');
-	
-				return false;
-	
-			});
-		});
-	}
-	
-	hiddenBarMenuConfig();
-	
-	//Hidden Sidebar
-	if ($('.hidden-bar').length) {
-		var hiddenBar = $('.hidden-bar');
-		var hiddenBarOpener = $('.hidden-bar-opener');
-		var hiddenBarCloser = $('.hidden-bar-closer');
-		$('.hidden-bar-wrapper').mCustomScrollbar();
-		
-		//Show Sidebar
-		hiddenBarOpener.on('click', function () {
-			hiddenBar.addClass('visible-sidebar');
-		});
-		
-		//Hide Sidebar
-		hiddenBarCloser.on('click', function () {
-			hiddenBar.removeClass('visible-sidebar');
-		});
-		
-	}
+
 	
 	//LightBox / Fancybox
 	if($('.lightbox-image').length) {
@@ -304,8 +257,8 @@
 	}
 	
 	//Contact Form Validation
-	if($('#contact-form').length){
-		$('#contact-form').validate({
+    if ($('#bbs-form').length) {
+        $('#bbs-form').validate({
 			rules: {
 				username: {
 					required: true

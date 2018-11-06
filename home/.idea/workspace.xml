@@ -2,14 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72c80cf9-29c7-473d-9869-e5f62efc3adb" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/resource/kejianiangjiu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/resource/meicaikourou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/resource/niangtoufu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/resource/niurouwan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/resource/yanjuji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/resource/yanmian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../task5/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/arrow_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/arrow_left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/arrow_right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/arrowleft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/arrowright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/boxed_bgtile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/bullet_boxed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/bullets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/bullets2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/coloredbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/gridtile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/gridtile_3x3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/gridtile_3x3_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/gridtile_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/large_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/large_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/navigdots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/navigdots_bgtile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/shadow1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/shadow2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/shadow3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/small_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/small_left_boxed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/small_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/small_right_boxed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/assets/timer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/resource/news-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/resource/news-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/resource/team-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/resource/people-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/resource/team-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/resource/people-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/resource/team-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/resource/people-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sponsors/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sponsors/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sponsors/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sponsors/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sponsors/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sponsors/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,42 +111,43 @@
     <session id="1165151508">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.5" value="7" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.5" value="8" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="15" />
-          <entry key="gif" value="5" />
-          <entry key="jpg" value="41" />
+          <entry key="css" value="22" />
+          <entry key="gif" value="8" />
+          <entry key="ico" value="1" />
+          <entry key="jpg" value="46" />
           <entry key="js" value="12" />
-          <entry key="png" value="10" />
+          <entry key="png" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="15" />
-          <entry key="Image" value="56" />
+          <entry key="CSS" value="22" />
+          <entry key="Image" value="74" />
           <entry key="JavaScript" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="151" />
-          <entry key="html" value="756" />
+          <entry key="css" value="183" />
+          <entry key="html" value="1041" />
           <entry key="js" value="38" />
           <entry key="txt" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="151" />
-          <entry key="HTML" value="756" />
+          <entry key="CSS" value="183" />
+          <entry key="HTML" value="1041" />
           <entry key="JavaScript" value="38" />
           <entry key="PLAIN_TEXT" value="58" />
         </counts>
@@ -113,14 +159,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
-              <caret line="752" column="45" selection-start-line="752" selection-start-column="45" selection-end-line="752" selection-end-column="45" />
+            <state relative-caret-position="270">
+              <caret line="970" column="34" selection-start-line="970" selection-start-column="34" selection-end-line="970" selection-end-column="34" />
               <folding>
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#em#0;n#div#1;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -129,25 +178,8 @@
                 <element signature="n#style#0;n#em#3;n#div#1;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#em#4;n#div#1;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1393" column="12" selection-start-line="1393" selection-start-column="4" selection-end-line="1393" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="238" column="28" selection-start-line="238" selection-start-column="28" selection-end-line="238" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -156,12 +188,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.tp-dottedoverlay</find>
-      <find>200</find>
-      <find>time</find>
-      <find>flower</find>
-      <find>services</find>
-      <find>row</find>
       <find>Services</find>
       <find>works</find>
       <find>。</find>
@@ -186,6 +212,12 @@
       <find>sponsors-carousel</find>
       <find>em</find>
       <find>Place</find>
+      <find>wow</find>
+      <find>&lt;!--Skill Box--&gt;</find>
+      <find>people</find>
+      <find>News</find>
+      <find>Contact Form</find>
+      <find>footer</find>
     </findStrings>
     <replaceStrings>
       <replace>col-lg-4 col-md-4 col-sm-4 col-xs-4</replace>
@@ -207,8 +239,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -218,9 +250,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="499" />
-    <option name="y" value="135" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="433" />
+    <option name="y" value="151" />
     <option name="width" value="1932" />
     <option name="height" value="1047" />
   </component>
@@ -255,7 +287,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,38 +299,35 @@
               <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\WebProjects\home\images" />
+      <recent name="D:\Documents\WebProjects\home\images\resource" />
+      <recent name="D:\Documents\WebProjects\home\images\background" />
+      <recent name="D:\Documents\WebProjects\home\images\gallery" />
+      <recent name="C:\Users\Cheung\Desktop\cpts_1374_cef\images\icons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\WebProjects\home\images\icons" />
       <recent name="D:\Documents\WebProjects\home\images\gallery" />
       <recent name="D:\Documents\WebProjects\home\images" />
       <recent name="C:\Users\Cheung\Desktop\cpts_1374_cef\video" />
       <recent name="C:\Users\Cheung\Desktop\cpts_1374_cef\images\main-slider" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\WebProjects\home\images\resource" />
-      <recent name="D:\Documents\WebProjects\home\images\background" />
-      <recent name="D:\Documents\WebProjects\home\images\gallery" />
-      <recent name="D:\Documents\WebProjects\home\images" />
-      <recent name="C:\Users\Cheung\Desktop\cpts_1374_cef\images\icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,6 +376,8 @@
       <workItem from="1541427918833" duration="35000" />
       <workItem from="1541428000472" duration="493000" />
       <workItem from="1541428601593" duration="6242000" />
+      <workItem from="1541463990760" duration="78000" />
+      <workItem from="1541479075054" duration="11454000" />
     </task>
     <task id="LOCAL-00001" summary="20181102">
       <created>1541177888380</created>
@@ -398,11 +428,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541434812646</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="成功修改食物栏为滚动">
+      <created>1541464000566</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1541464000566</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68717000" />
+    <option name="totallyTimeSpent" value="80249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,13 +451,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="433" y="151" width="1932" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18597321" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24920802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.21546961" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.21492206" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -462,28 +500,6 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/main-slider/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/flaticon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/main-slider/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/resource/pie-2.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/resource/pie-4.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/resource/pie-3.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/resource/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/resource/pie-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/gallery/5.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/gallery/citynights/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/gallery/citynights/2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -500,15 +516,6 @@
     <entry file="file://$PROJECT_DIR$/images/background/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/fancybox/blank.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/fancybox/fancybox_loading@2x.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/fancybox/fancybox_overlay.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/main-slider/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -516,22 +523,7 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/resource/author-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/resource/news-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/resource/news-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/resource/team-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/resource/team-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/resource/team-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/fancybox/fancybox_loading.gif">
+    <entry file="file://$PROJECT_DIR$/images/resource/people-3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$USER_HOME$/Desktop/cpts_1374_cef/css/style.css">
@@ -540,9 +532,6 @@
           <caret line="1443" column="1" lean-forward="true" selection-start-line="1330" selection-end-line="1443" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/assets/arrow_left.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/assets/arrow_right.png">
       <provider selected="true" editor-type-id="images" />
@@ -565,13 +554,6 @@
     <entry file="file://$PROJECT_DIR$/css/assets/shadow1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/revolution-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28525" selection-start-column="28525" selection-end-column="28995" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/owl.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-87">
@@ -579,13 +561,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/map-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map-script.js" />
     <entry file="file://$PROJECT_DIR$/js/pagenav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -650,30 +626,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/resource/news-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/resource/news-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/resource/people-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="238" column="28" selection-start-line="238" selection-start-column="28" selection-end-line="238" selection-end-column="28" />
+        <state relative-caret-position="309">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icons/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/sponsors/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/sponsors/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/resource/people-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icons/icon-cross.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icons/mark_b.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icons/separator-one.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/fancybox/blank.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/fancybox/fancybox_loading.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/fancybox/fancybox_loading@2x.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/fancybox/fancybox_overlay.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/fancybox/fancybox_sprite@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/fancybox/fancybox_sprite.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.fancybox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/revolution-slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29063" selection-start-column="29063" selection-end-column="29063" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/assets/arrow_left.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1393" column="12" selection-start-line="1393" selection-start-column="4" selection-end-line="1393" selection-end-column="12" />
+        <state relative-caret-position="212">
+          <caret line="1389" column="23" selection-start-line="1389" selection-start-column="23" selection-end-line="1389" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="752" column="45" selection-start-line="752" selection-start-column="45" selection-end-line="752" selection-end-column="45" />
+        <state relative-caret-position="270">
+          <caret line="970" column="34" selection-start-line="970" selection-start-column="34" selection-end-line="970" selection-end-column="34" />
           <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#em#0;n#div#1;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -682,6 +733,7 @@
             <element signature="n#style#0;n#em#3;n#div#1;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#em#4;n#div#1;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
