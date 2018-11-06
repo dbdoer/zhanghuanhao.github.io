@@ -1308,49 +1308,6 @@ img{
 /*** 
 
 ====================================================================
-	Contact Info
-====================================================================
-
-***/
-
-.contact-info{ 
-	position:relative;
-	padding:38px 0px 15px;
-	background-color:#4f4f4f;
-}
-
-.contact-info ul{ 
-	position:relative; 
-	max-width:930px; 
-	margin:0 auto;
-}
-
-.contact-info ul li{ 
-	position:relative;
-	color:#ffffff;
-	font-size:15px;
-	padding-left:50px;
-	display:inline-block;
-	margin-right:120px;
-	line-height:26px;
-	margin-bottom:20px;
-}
-
-.contact-info ul li:last-child{ 
-	margin-right:0px;
-}
-
-.contact-info ul li .icon{ 
-	position:absolute;
-	left:0px;
-	top:12px; 
-	color:#ffffff; 
-	font-size:26px;
-}
-
-/*** 
-
-====================================================================
 	BBS Section
 ====================================================================
 
@@ -1667,12 +1624,16 @@ img{
 }
 
 .footer-bottom .social-icon a{
-	color:#ffffff; 
-	font-size:18px;
-	margin:0px 22px;
+	color:#ffffff;
+	font-size: 22px;
+	margin: 0px 13px;
 	position:relative;
 }
 
+.footer-bottom .social-icon a span {
+	margin-left: 10px;
+	font-size: 15px;
+}
 .bbs-form input.error,
 .bbs-form select.error,
 .bbs-form textarea.error {
