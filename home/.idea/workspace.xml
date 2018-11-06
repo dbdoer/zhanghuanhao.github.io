@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72c80cf9-29c7-473d-9869-e5f62efc3adb" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gallery/ketianxia/8.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,7 +66,7 @@
     <session id="1165151508">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="3" />
@@ -340,7 +347,7 @@
       <workItem from="1541422414594" duration="3656000" />
       <workItem from="1541427918833" duration="35000" />
       <workItem from="1541428000472" duration="493000" />
-      <workItem from="1541428601593" duration="6191000" />
+      <workItem from="1541428601593" duration="6242000" />
     </task>
     <task id="LOCAL-00001" summary="20181102">
       <created>1541177888380</created>
@@ -377,11 +384,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541434322816</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="成功修改食物栏为滚动">
+      <created>1541434803723</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541434803723</updated>
+    </task>
+    <task id="LOCAL-00007" summary="成功修改食物栏为滚动">
+      <created>1541434812646</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541434812646</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68666000" />
+    <option name="totallyTimeSpent" value="68717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,7 +415,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18597321" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
