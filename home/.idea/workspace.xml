@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72c80cf9-29c7-473d-9869-e5f62efc3adb" name="默认更改列表" comment="社区论坛完成">
-      <change afterPath="$PROJECT_DIR$/images/icons/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/preloader.gif" afterDir="false" />
+    <list default="true" id="72c80cf9-29c7-473d-9869-e5f62efc3adb" name="默认更改列表" comment="上传min">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,20 +66,20 @@
     <session id="1165151508">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="14" />
+          <entry key="project.open.time.5" value="15" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="58" />
+          <entry key="css" value="60" />
           <entry key="gif" value="11" />
           <entry key="html" value="4" />
           <entry key="ico" value="1" />
@@ -95,7 +91,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="58" />
+          <entry key="CSS" value="60" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="95" />
           <entry key="JavaScript" value="67" />
@@ -104,18 +100,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="852" />
+          <entry key="css" value="854" />
           <entry key="html" value="2278" />
           <entry key="js" value="1117" />
-          <entry key="txt" value="108" />
+          <entry key="txt" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="852" />
+          <entry key="CSS" value="854" />
           <entry key="HTML" value="2278" />
           <entry key="JavaScript" value="1117" />
-          <entry key="PLAIN_TEXT" value="108" />
+          <entry key="PLAIN_TEXT" value="128" />
         </counts>
       </usages-collector>
     </session>
@@ -165,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="52" column="39" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="39" />
+            <state relative-caret-position="-937">
+              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -203,22 +199,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding>
-                <element signature="n#!!block;n#select_all#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="172" column="30" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
+            <state relative-caret-position="622">
+              <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
             </state>
           </provider>
         </entry>
@@ -300,8 +284,8 @@
         <option value="$PROJECT_DIR$/js/jquery.fancybox.pack.js" />
         <option value="$PROJECT_DIR$/a.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -348,6 +332,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,7 +360,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,7 +451,8 @@
       <workItem from="1541738245007" duration="1003000" />
       <workItem from="1541739857015" duration="1935000" />
       <workItem from="1541743790158" duration="9786000" />
-      <workItem from="1541761584240" duration="2963000" />
+      <workItem from="1541761584240" duration="3086000" />
+      <workItem from="1541771433847" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="20181102">
       <created>1541177888380</created>
@@ -553,11 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541741748873</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="社区论坛完成，添加preloader">
+      <created>1541764572848</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1541764572849</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133884000" />
+    <option name="totallyTimeSpent" value="134118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,7 +564,7 @@
     <frame x="693" y="93" width="1748" height="1120" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.16783626" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.16783626" />
       <window_info id="Structure" order="1" sideWeight="0.5029412" side_tool="true" weight="0.20485744" />
       <window_info id="Favorites" order="2" sideWeight="0.50240386" side_tool="true" weight="0.16783626" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -586,7 +578,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.266147" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50141245" side_tool="true" weight="0.19324325" />
-      <window_info active="true" anchor="bottom" id="调试" order="11" sideWeight="0.49858758" visible="true" weight="0.14315139" />
+      <window_info anchor="bottom" id="调试" order="11" sideWeight="0.49858758" weight="0.14315139" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32962137" />
       <window_info anchor="bottom" id="Statistic" order="13" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -621,13 +613,12 @@
     <MESSAGE value="微改" />
     <MESSAGE value="添加概述，历史文化遗产" />
     <MESSAGE value="添加min，论坛功能实现提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加min，论坛功能实现提交" />
+    <MESSAGE value="社区论坛完成，添加preloader" />
+    <MESSAGE value="上传min" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传min" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/history/people-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/icons/icon-cross.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -841,10 +832,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="39" />
+        <state relative-caret-position="-937">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -881,18 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="172" column="30" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!block;n#select_all#0" />
-          </folding>
+        <state relative-caret-position="622">
+          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
         </state>
       </provider>
     </entry>

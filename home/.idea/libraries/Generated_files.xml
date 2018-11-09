@@ -3,7 +3,7 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/js/jquery.fancybox-media.min.js" />
-        <item url="file://$PROJECT_DIR$/js/jquery.fancybox.pack.min.js" />
+        <item url="file://$PROJECT_DIR$/js/jquery.fancybox-media.min.min.js" />
         <item url="file://$PROJECT_DIR$/js/mixitup.min.js" />
         <item url="file://$PROJECT_DIR$/js/owl.min.js" />
         <item url="file://$PROJECT_DIR$/js/pagenav.min.js" />
@@ -13,8 +13,9 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/js/jquery.fancybox-media.min.js" />
       <root url="file://$PROJECT_DIR$/js/jquery.fancybox.pack.min.js" />
+      <root url="file://$PROJECT_DIR$/js/jquery.fancybox-media.min.js" />
+      <root url="file://$PROJECT_DIR$/js/jquery.fancybox-media.min.min.js" />
       <root url="file://$PROJECT_DIR$/js/mixitup.min.js" />
       <root url="file://$PROJECT_DIR$/js/owl.min.js" />
       <root url="file://$PROJECT_DIR$/js/pagenav.min.js" />
