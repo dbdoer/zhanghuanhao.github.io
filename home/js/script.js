@@ -253,19 +253,38 @@
         });
     }
 
-    //Contact Form Validation
-    if ($('#bbs-form').length) {
-        $('#bbs-form').validate({
+    //BBS Form Validation
+    function validform() {
+        return $('#bbs-form').validate({
             rules: {
                 username: {
-                    required: true
+                    required: true,
+                    maxlength: 20
                 },
                 message: {
-                    required: true
+                    required: true,
+                    maxlength: 100
+                }
+            },
+            messages: {
+                username: {
+                    required: "请输入你的名字",
+                    maxlength: "请输入不超过20个字符"
+                },
+                message: {
+                    required: "请输入你的留言",
+                    maxlength: "请输入不超过100个字符"
                 }
             }
         });
     }
+
+    $(validform());
+    $("#add_button").click(function () {
+        if (validform().form())
+            add_message();
+    });
+
 
     // Elements Animation
     if ($('.wow').length) {
@@ -297,56 +316,46 @@
 
     $(window).on('load', function () {
         handlePreloader();
+        getCookie();
     });
 
 })(window.jQuery);
 
 
 var number = 0;
-var x = -1;
 var elements = [];
 
-document.observe("dom:loaded", function () {
-    $("add").observe("click", add);
-    $("remove").observe("click", remove);
-    $("select").observe("click", select_all);
-    $("deselect").observe("click", deselect_all);
-    getCookie();
-});
+function add_message() {
 
-function add() {
-    var input = $("message");
-    var text = input.value.trim();
-    if (text === "") {
-        alert("输入不能为空哦！");
-    }
-    else if (text.length > 30) {
-        alert("请输入少于30个字符！");
-    }
-    else {
-        var li = document.createElement("li");
-        li.setAttribute("id", "li" + number);
-        var checkbox = document.createElement("input");
-        checkbox.setAttribute("type", "checkbox");
-        li.appendChild(checkbox);
-        li.append(text);
-        $("list").appendChild(li);
-        elements.push(number.toString());
-        number++;
-        setCookie()
-    }
-    input.value = "";
-    //关闭回车换行
-    window.event.returnValue = false;
+    var username = $("username");
+    var message = $("message");
+    var date = new Date().toString();
+    var text = username.value.trim() + ": " + message.value.trim();
+    var li = document.createElement("li");
+    li.setAttribute("id", "li" + number);
+    li.setAttribute("class", "wow animated fadeInUp");
+    var checkbox = document.createElement("input");
+    checkbox.setAttribute("type", "checkbox");
+    li.appendChild(checkbox);
+    var div = document.createElement("div");
+    div.setAttribute("class", "li_text");
+    div.append(date);
+    var br = document.createElement("br");
+    div.appendChild(br);
+    div.append(text);
+    li.appendChild(div);
+    $("list").appendChild(li);
+    elements.push(number.toString());
+    number++;
+    username.value = "";
+    message.value = "";
+    setCookie();
 }
 
-function remove() {
+function remove_message() {
     for (var i = 0; i < elements.length; i++) {
         var elem = $("li" + elements[i]);
         if (elem.firstChild.checked === true) {
-            //如果要删除的元素在已选择的元素之前，需调整x位置
-            if (i < x) x--;
-            else if (i === x) x = -1;
             elem.remove();
             elements.splice(i, 1);
             i--;
@@ -367,35 +376,38 @@ function deselect_all() {
     }
 }
 
-function select() {
-    if (x === -1) return;
-    var target = $("li" + elements[x]);
-    target.firstChild.checked = !target.firstChild.checked;
-}
-
 function setCookie() {
     var to_do = "to_do=";
     for (var i = 0; i < elements.length; i++) {
-        var text = $("li" + elements[i]).innerText;
+        var text = $("li" + elements[i]).childNodes[1].innerHTML;
         to_do += text + ",";
     }
     if (elements.length !== 0)
         to_do = to_do.slice(0, to_do.length - 1);
     document.cookie = escape(to_do);
-    alert("Saved successfully!");
 }
 
 function getCookie() {
     var to_do = unescape(document.cookie).split(';')[0];
     if (to_do.slice(0, 5) === "to_do" && to_do.length > 6) {
-        var text = to_do.split('=')[1].split(',');
-        for (var i = 0; i < text.length; i++) {
+        var temp = to_do.split('=')[1].split(",");
+        for (var i = 0; i < temp.length; i++) {
+            var message = temp[i].split("<br>");
+            var date = message[0];
+            var text = message[1];
             var li = document.createElement("li");
             li.setAttribute("id", "li" + number);
+            li.setAttribute("class", "wow animated fadeInUp");
             var checkbox = document.createElement("input");
             checkbox.setAttribute("type", "checkbox");
             li.appendChild(checkbox);
-            li.append(text[i]);
+            var div = document.createElement("div");
+            div.setAttribute("class", "li_text");
+            div.append(date);
+            var br = document.createElement("br");
+            div.appendChild(br);
+            div.append(text);
+            li.appendChild(div);
             $("list").appendChild(li);
             elements.push(number.toString());
             number++;

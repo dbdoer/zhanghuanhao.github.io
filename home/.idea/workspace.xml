@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72c80cf9-29c7-473d-9869-e5f62efc3adb" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/education/dongzhong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/education/jiada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/food/laoshuban.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/food/weijiaoban.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/history/art.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/history/red.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/history/structure.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resource/kejianiangjiu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/food/kejianiangjiu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resource/meicaikourou.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/food/meicaikourou.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resource/niangtoufu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/food/niangtoufu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resource/niurouwan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/food/niurouwan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resource/people-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/history/people-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resource/people-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/history/people-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resource/people-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/history/people-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resource/yanjuji.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/food/yanjuji.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/resource/yanmian.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/food/yanmian.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pagenav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pagenav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/validate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../task5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,6 +20,12 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/home$Main.dat" NAME="Main Coverage Results" MODIFIED="1541726916770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="355" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1334002567">
@@ -82,58 +73,63 @@
     <session id="1165151508">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="30" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.4" value="6" />
-          <entry key="project.open.time.5" value="11" />
+          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.5" value="13" />
           <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="36" />
+          <entry key="css" value="53" />
           <entry key="gif" value="11" />
+          <entry key="html" value="4" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="57" />
-          <entry key="js" value="25" />
+          <entry key="js" value="67" />
           <entry key="png" value="21" />
+          <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="36" />
+          <entry key="CSS" value="53" />
+          <entry key="HTML" value="4" />
           <entry key="Image" value="90" />
-          <entry key="JavaScript" value="25" />
+          <entry key="JavaScript" value="67" />
+          <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="529" />
-          <entry key="html" value="1944" />
-          <entry key="js" value="64" />
-          <entry key="txt" value="71" />
+          <entry key="css" value="704" />
+          <entry key="html" value="2193" />
+          <entry key="js" value="1085" />
+          <entry key="txt" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="529" />
-          <entry key="HTML" value="1944" />
-          <entry key="JavaScript" value="64" />
-          <entry key="PLAIN_TEXT" value="71" />
+          <entry key="CSS" value="704" />
+          <entry key="HTML" value="2193" />
+          <entry key="JavaScript" value="1085" />
+          <entry key="PLAIN_TEXT" value="88" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="1120" column="59" selection-start-line="1120" selection-start-column="59" selection-end-line="1120" selection-end-column="59" />
+            <state relative-caret-position="305">
+              <caret line="1122" column="32" selection-start-line="1122" selection-start-column="32" selection-end-line="1122" selection-end-column="32" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -166,20 +162,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="313" column="16" lean-forward="true" selection-start-line="313" selection-start-column="16" selection-end-line="313" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="1638" column="1" selection-start-line="1638" selection-start-column="1" selection-end-line="1638" selection-end-column="1" />
+            <state relative-caret-position="174">
+              <caret line="1402" column="1" selection-start-line="1402" selection-start-column="1" selection-end-line="1402" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -188,16 +175,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;!--Skill Box--&gt;</find>
-      <find>people</find>
-      <find>News</find>
-      <find>Contact Form</find>
-      <find>footer</find>
-      <find>faceb</find>
-      <find>enve</find>
-      <find>facebook</find>
-      <find>email</find>
-      <find>group-inner</find>
       <find>price</find>
       <find>eco</find>
       <find>wow</find>
@@ -218,6 +195,16 @@
       <find>style=&quot;margin-top: 60px&quot;</find>
       <find>template-btn</find>
       <find>btn-style-two</find>
+      <find>mix</find>
+      <find>btn</find>
+      <find>but</find>
+      <find>submit</find>
+      <find>x</find>
+      <find>bbs</find>
+      <find>contact-form</find>
+      <find>bbs-form</find>
+      <find>timer</find>
+      <find>border</find>
     </findStrings>
     <replaceStrings>
       <replace>col-lg-4 col-md-4 col-sm-4 col-xs-4</replace>
@@ -245,9 +232,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/js/validate.js" />
+        <option value="$PROJECT_DIR$/js/prototype.js" />
+        <option value="$PROJECT_DIR$/js/pagenav.js" />
+        <option value="$PROJECT_DIR$/js/owl.js" />
+        <option value="$PROJECT_DIR$/js/mixitup.js" />
+        <option value="$PROJECT_DIR$/js/jquery.fancybox-media.js" />
+        <option value="$PROJECT_DIR$/js/jquery.fancybox.pack.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -258,10 +252,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="614" />
-    <option name="y" value="270" />
+    <option name="x" value="178" />
+    <option name="y" value="181" />
     <option name="width" value="1932" />
-    <option name="height" value="1047" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -294,6 +288,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,35 +306,40 @@
               <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="home" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="validate.js" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OneDrive/cpts_1374_cef" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\WebProjects\home\images\food" />
-      <recent name="D:\Documents\WebProjects\home\images\history" />
-      <recent name="D:\Documents\WebProjects\home\images\education" />
-      <recent name="D:\Documents\WebProjects\home\images" />
-      <recent name="D:\Documents\WebProjects\home\images\resource" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\WebProjects\home\js" />
       <recent name="D:\Documents\WebProjects\home\images" />
       <recent name="D:\Documents\WebProjects\home\images\resource" />
       <recent name="D:\Documents\WebProjects\home\images\background" />
       <recent name="D:\Documents\WebProjects\home\images\gallery" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\WebProjects\home\js" />
+      <recent name="D:\Documents\WebProjects\home\images\food" />
+      <recent name="D:\Documents\WebProjects\home\images\history" />
+      <recent name="D:\Documents\WebProjects\home\images\education" />
+      <recent name="D:\Documents\WebProjects\home\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,7 +397,14 @@
       <workItem from="1541584543780" duration="1331000" />
       <workItem from="1541604332537" duration="605000" />
       <workItem from="1541651262654" duration="10860000" />
-      <workItem from="1541676201643" duration="5582000" />
+      <workItem from="1541676201643" duration="7072000" />
+      <workItem from="1541684112481" duration="635000" />
+      <workItem from="1541685042002" duration="2327000" />
+      <workItem from="1541687578355" duration="6210000" />
+      <workItem from="1541723665593" duration="1591000" />
+      <workItem from="1541726595565" duration="3213000" />
+      <workItem from="1541738245007" duration="1003000" />
+      <workItem from="1541739857015" duration="1792000" />
     </task>
     <task id="LOCAL-00001" summary="20181102">
       <created>1541177888380</created>
@@ -469,11 +476,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541516333209</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加概述，历史文化遗产">
+      <created>1541681948149</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541681948149</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102731000" />
+    <option name="totallyTimeSpent" value="120992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,15 +499,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="614" y="270" width="1932" height="1047" extended-state="0" />
+    <frame x="665" y="64" width="1932" height="1049" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.1467793" />
-      <window_info id="Structure" order="1" sideWeight="0.50147057" side_tool="true" weight="0.1467793" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4970588" visible="true" weight="0.20485744" />
+      <window_info id="Structure" order="1" sideWeight="0.5029412" side_tool="true" weight="0.20485744" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.21492206" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,12 +516,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.266147" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500528" side_tool="true" weight="0.32850778" />
-      <window_info anchor="bottom" id="调试" order="11" sideWeight="0.49947202" weight="0.24276169" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32991317" />
+      <window_info anchor="bottom" id="调试" order="11" sideWeight="0.49947202" weight="0.3911111" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32962137" />
       <window_info anchor="bottom" id="Statistic" order="13" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32959402" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,66 +542,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="20181102" />
     <MESSAGE value="修改Gallery" />
     <MESSAGE value="添加历史人物" />
     <MESSAGE value="成功修改食物栏为滚动" />
     <MESSAGE value="添加家乡美食项" />
     <MESSAGE value="微改" />
-    <option name="LAST_COMMIT_MESSAGE" value="微改" />
+    <MESSAGE value="添加概述，历史文化遗产" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加概述，历史文化遗产" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/assets/shadow1.png" />
-    <entry file="file://$PROJECT_DIR$/css/owl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="162" column="3" lean-forward="true" selection-start-line="162" selection-start-column="3" selection-end-line="162" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map-script.js" />
-    <entry file="file://$PROJECT_DIR$/js/pagenav.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/mixitup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/owl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56231">
-          <caret line="1939" column="20" selection-start-line="1939" selection-start-column="9" selection-end-line="1939" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/wow.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/validate.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/revolution.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="4" column="116560" selection-start-line="4" selection-start-column="116560" selection-end-line="4" selection-end-column="116560" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/resource/news-2.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/resource/news-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/history/people-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icons/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/sponsors/4.png" />
     <entry file="file://$PROJECT_DIR$/images/sponsors/1.png" />
     <entry file="file://$PROJECT_DIR$/images/history/people-1.jpg">
@@ -612,41 +579,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="789" column="12" selection-start-line="789" selection-start-column="1" selection-end-line="789" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/flaticon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="77" column="18" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/revolution-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29063" selection-start-column="29063" selection-end-column="29063" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/function.js" />
-    <entry file="file://$PROJECT_DIR$/js/prototype.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/大作业/重庆/js/placeshow.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../OneDrive/cpts_1374_cef/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="1687" lean-forward="true" selection-start-line="1559" selection-end-line="1687" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/大作业/重庆/js/placeshow.js" />
     <entry file="file://$PROJECT_DIR$/images/background.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -674,13 +608,6 @@
     <entry file="file://$PROJECT_DIR$/images/fancybox/fancybox_sprite@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery.fancybox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="93" column="17" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/food/niurouwan.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -690,57 +617,163 @@
     <entry file="file://$PROJECT_DIR$/images/food/yanmian.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="4" column="38046" selection-start-line="4" selection-start-column="38046" selection-end-line="4" selection-end-column="38046" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.mCustomScrollbar.concat.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.scrollTo.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="1638" column="1" selection-start-line="1638" selection-start-column="1" selection-end-line="1638" selection-end-column="1" />
+        <state relative-caret-position="122">
+          <caret line="784" column="1" lean-forward="true" selection-start-line="784" selection-start-column="1" selection-end-line="784" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/flaticon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="77" column="18" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.fancybox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="93" column="17" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.mCustomScrollbar.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/js/wow.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/prototype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pagenav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/owl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="2272" column="8" selection-start-line="2272" selection-start-column="8" selection-end-line="2272" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mixitup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.scrollTo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="152" lean-forward="true" selection-start-line="6" selection-start-column="152" selection-end-line="6" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.mCustomScrollbar.concat.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.fancybox-media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.fancybox.pack.min.js" />
     <entry file="file://$PROJECT_DIR$/js/jquery.fancybox.pack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="474">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost:63342/home/js/script.js">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../OneDrive/cpts_1374_cef/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="307" column="22" selection-start-line="307" selection-start-column="22" selection-end-line="307" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../OneDrive/cpts_1374_cef/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="2064" column="23" lean-forward="true" selection-start-line="2064" selection-start-column="23" selection-end-line="2064" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="26302" selection-start-line="3" selection-start-column="26302" selection-end-line="3" selection-end-column="26302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/validate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/revolution-slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29063" selection-start-column="29063" selection-end-column="29063" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="313" column="16" lean-forward="true" selection-start-line="313" selection-start-column="16" selection-end-line="313" selection-end-column="16" />
+        <state relative-caret-position="365">
+          <caret line="285" column="7" lean-forward="true" selection-start-line="285" selection-start-column="7" selection-end-line="285" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="1120" column="59" selection-start-line="1120" selection-start-column="59" selection-end-line="1120" selection-end-column="59" />
+        <state relative-caret-position="305">
+          <caret line="1122" column="32" selection-start-line="1122" selection-start-column="32" selection-end-line="1122" selection-end-column="32" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -769,6 +802,13 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#section#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#9;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="1402" column="1" selection-start-line="1402" selection-start-column="1" selection-end-line="1402" selection-end-column="1" />
         </state>
       </provider>
     </entry>

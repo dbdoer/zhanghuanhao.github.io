@@ -1367,6 +1367,7 @@ img {
     resize: none;
     border-radius: 20px;
     background-color: #ffffff;
+    border: 1px solid #ffffff;
 }
 
 .bbs-form .form-group .group-inner button {
@@ -1374,7 +1375,6 @@ img {
 }
 
 .bbs-form input.error,
-.bbs-form select.error,
 .bbs-form textarea.error {
     border-color: #ff0000 !important;
 }
@@ -1384,10 +1384,24 @@ img {
     line-height: 24px;
     padding: 5px 0 0;
     margin: 0;
-    text-transform: uppercase;
-    font-size: 11px;
+    font-size: 16px;
     color: #ff0000;
     font-weight: 500;
+}
+
+.bbs-form .form-group li {
+    color: white;
+    padding-bottom: 16px;
+    font-size: 18px;
+}
+
+.bbs-form .form-group .li_text {
+    margin-left: 20px;
+}
+
+.bbs-form .form-group li input {
+    color: white;
+    float: left;
 }
 
 /*** 

@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/js/jquery.fancybox-media.min.js" />
+        <item url="file://$PROJECT_DIR$/js/jquery.fancybox.pack.min.js" />
+        <item url="file://$PROJECT_DIR$/js/mixitup.min.js" />
+        <item url="file://$PROJECT_DIR$/js/owl.min.js" />
+        <item url="file://$PROJECT_DIR$/js/pagenav.min.js" />
+        <item url="file://$PROJECT_DIR$/js/prototype.min.js" />
+        <item url="file://$PROJECT_DIR$/js/script.min.js" />
+        <item url="file://$PROJECT_DIR$/js/validate.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/js/jquery.fancybox-media.min.js" />
+      <root url="file://$PROJECT_DIR$/js/jquery.fancybox.pack.min.js" />
+      <root url="file://$PROJECT_DIR$/js/mixitup.min.js" />
+      <root url="file://$PROJECT_DIR$/js/owl.min.js" />
+      <root url="file://$PROJECT_DIR$/js/pagenav.min.js" />
+      <root url="file://$PROJECT_DIR$/js/prototype.min.js" />
+      <root url="file://$PROJECT_DIR$/js/script.min.js" />
+      <root url="file://$PROJECT_DIR$/js/validate.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

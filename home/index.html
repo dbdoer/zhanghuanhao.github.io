@@ -55,7 +55,7 @@
             <div class="tp-banner">
                 <ul>
                     <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
-                        data-thumb="images/main-slider/image-1.jpg" data-saveperformance="off"
+                        data-thumb="images/main-slider/1.jpg" data-saveperformance="off"
                         data-title="Awesome Title Here">
                         <img src="images/main-slider/1.jpg" alt="" data-bgposition="center top" data-bgfit="cover"
                              data-bgrepeat="no-repeat">
@@ -87,7 +87,7 @@
                         </div>
                     </li>
                     <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
-                        data-thumb="images/main-slider/image-1.jpg" data-saveperformance="off"
+                        data-thumb="images/main-slider/2.jpg" data-saveperformance="off"
                         data-title="Awesome Title Here">
                         <img src="images/main-slider/2.jpg" alt="" data-bgposition="center top" data-bgfit="cover"
                              data-bgrepeat="no-repeat">
@@ -119,7 +119,7 @@
                         </div>
                     </li>
                     <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
-                        data-thumb="images/main-slider/image-1.jpg" data-saveperformance="off"
+                        data-thumb="images/main-slider/3.jpg" data-saveperformance="off"
                         data-title="Awesome Title Here">
                         <img src="images/main-slider/3.jpg" alt="" data-bgposition="center top" data-bgfit="cover"
                              data-bgrepeat="no-repeat">
@@ -1102,25 +1102,27 @@
     <section class="bbs-section" id="bbs">
         <div class="auto-container">
             <div class="bbs-form wow animated slideInUp">
-                <form id="contact-form">
+                <form id="bbs-form">
                     <div class="row clearfix">
                         <div class="form-title col-md-12 col-sm-12 col-xs-12">
                             <h2>社区论坛</h2>
                         </div>
                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
                             <div class="group-inner">
-                                <input type="text" name="username" value="" placeholder="Your Name..." required>
+                                <input type="text" id="username" name="username" placeholder="Your Name..." required>
                             </div>
                         </div>
                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
                             <div class="group-inner">
-                                <textarea name="message" placeholder="Message..."></textarea>
+                                <textarea id="message" name="message" placeholder="Message..." required></textarea>
                             </div>
                         </div>
                         <div class="form-group text-center col-md-12 col-sm-12 col-xs-12">
-                            <button id="add" class="template-btn btn-style-one">SUBMIT</button>
+                            <button type="button" id="add_button" class="template-btn btn-style-one">SUBMIT</button>
                         </div>
-                        <ul id="list">To-do：</ul>
+                        <div class="form-group col-md-12 col-sm-12 col-xs-12 wow animated fadeInDown">
+                            <ul id="list"></ul>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -1155,13 +1157,14 @@
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="js/revolution.min.js"></script>
 <script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
-<script src="js/mixitup.js"></script>
-<script src="js/owl.js"></script>
+<script src="js/jquery.fancybox-media.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/owl.min.js"></script>
 <script src="js/wow.js"></script>
-<script src="js/pagenav.js"></script>
+<script src="js/pagenav.min.js"></script>
 <script src="js/jquery.scrollTo.js"></script>
-<script src="js/validate.js"></script>
+<script src="js/validate.min.js"></script>
+<script src="js/prototype.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
