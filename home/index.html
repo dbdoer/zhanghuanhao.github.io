@@ -6,7 +6,7 @@
     <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/revolution-slider.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
     <!--Favicon-->
     <link rel="shortcut icon" href="images/icons/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
@@ -343,7 +343,11 @@
             <div class="education-inner wow animated slideInRight">
                 <div class="row clearfix">
                     <div class="column col-md-4 col-sm-4 col-xs-12">
-                        <img src="images/education/dongzhong.jpg">
+                        <a href="images/education/dongzhong.jpg"
+                           data-fancybox-group="e-gallery"
+                           class="lightbox-image" title="广东梅县东山中学">
+                            <img src="images/education/dongzhong.jpg">
+                        </a>
                     </div>
                     <div class="column col-md-8 col-sm-8 col-xs-12" style="margin-left: 100px">
                         <div class="inner-box">
@@ -370,7 +374,10 @@
                         </div>
                     </div>
                     <div class="column col-md-4 col-sm-4 col-xs-12" style="margin-left: 100px">
-                        <img src="images/education/jiada.jpg">
+                        <a href="images/education/jiada.jpg"
+                           data-fancybox-group="e-gallery"
+                           class="lightbox-image" title="嘉应学院"> <img src="images/education/jiada.jpg">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -843,7 +850,7 @@
         <div class="auto-container">
             <!--Sec Title-->
             <div class="sec-title wow animated fadeInUp">
-                <h2>历史遗产</h2>
+                <h2>文化遗产</h2>
                 <div class="separator"></div>
                 <div class="text">
                     梅州是中国中原文化和南方土著文化的重要交汇点，以其独树一帜的客家文化名扬四海，<br/>
@@ -854,7 +861,11 @@
             <div class="history-inner wow animated slideInRight">
                 <div class="row clearfix">
                     <div class="column col-md-4 col-sm-4 col-xs-12">
-                        <img src="images/history/structure.jpg">
+                        <a href="images/history/structure.jpg"
+                           data-fancybox-group="c-gallery"
+                           class="lightbox-image" title="建筑文化">
+                            <img src="images/history/structure.jpg">
+                        </a>
                     </div>
                     <div class="column col-md-8 col-sm-8 col-xs-12" style="margin-left: 100px">
                         <div class="inner-box">
@@ -884,7 +895,11 @@
                         </div>
                     </div>
                     <div class="column col-md-4 col-sm-4 col-xs-12" style="margin-left: 100px">
-                        <img src="images/history/art.jpg">
+                        <a href="images/history/art.jpg"
+                           data-fancybox-group="c-gallery"
+                           class="lightbox-image" title="艺术文化">
+                            <img src="images/history/art.jpg">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -892,7 +907,11 @@
             <div class="history-inner wow animated slideInRight" style="margin-top: 50px">
                 <div class="row clearfix">
                     <div class="column col-md-4 col-sm-4 col-xs-12">
-                        <img src="images/history/red.jpg">
+                        <a href="images/history/red.jpg"
+                           data-fancybox-group="c-gallery"
+                           class="lightbox-image" title="红色文化">
+                            <img src="images/history/red.jpg">
+                        </a>
                     </div>
                     <div class="column col-md-8 col-sm-8 col-xs-12" style="margin-left: 100px">
                         <div class="inner-box">
@@ -1118,10 +1137,19 @@
                             </div>
                         </div>
                         <div class="form-group text-center col-md-12 col-sm-12 col-xs-12">
-                            <button type="button" id="add_button" class="template-btn btn-style-one">SUBMIT</button>
+                            <button type="button" id="addBut" class="template-btn btn-style-one">提交</button>
                         </div>
                         <div class="form-group col-md-12 col-sm-12 col-xs-12 wow animated fadeInDown">
                             <ul id="list"></ul>
+                        </div>
+                        <div class="form-group col-md-12 col-sm-12 col-xs-12 wow animated fadeInDown">
+                            <div class="row clearfix">
+                                <button type="button" id="removeBut" class="template-btn btn-style-one">删除</button>
+                                <button type="button" id="selectAllBut" class="template-btn btn-style-one">选择全部</button>
+                                <button type="button" id="deselectAllBut" class="template-btn btn-style-one">取消选择全部
+                                </button>
+                                <button type="button" id="removeAllBut" class="template-btn btn-style-one">删除全部</button>
+                            </div>
                         </div>
                     </div>
                 </form>
@@ -1165,6 +1193,6 @@
 <script src="js/jquery.scrollTo.js"></script>
 <script src="js/validate.min.js"></script>
 <script src="js/prototype.min.js"></script>
-<script src="js/script.js"></script>
+<script src="js/script.min.js"></script>
 </body>
 </html>

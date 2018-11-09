@@ -5,7 +5,7 @@
     //Hide Loading Box (Preloader)
     function handlePreloader() {
         if ($('.preloader').length) {
-            $('.preloader').delay(100).fadeOut(500);
+            $('.preloader').delay(5000).fadeOut(3000);
         }
     }
 
@@ -280,9 +280,22 @@
     }
 
     $(validform());
-    $("#add_button").click(function () {
+    $("#addBut").click(function () {
         if (validform().form())
             add_message();
+    });
+    $("#removeBut").click(function () {
+        remove_message();
+    });
+    $("#selectAllBut").click(function () {
+        select_all();
+    });
+    $("#deselectAllBut").click(function () {
+        deselect_all();
+    });
+    $("#removeAllBut").click(function () {
+        select_all();
+        remove_message();
     });
 
 
@@ -321,12 +334,10 @@
 
 })(window.jQuery);
 
-
 var number = 0;
 var elements = [];
 
 function add_message() {
-
     var username = $("username");
     var message = $("message");
     var date = new Date().toString();
@@ -336,7 +347,11 @@ function add_message() {
     li.setAttribute("class", "wow animated fadeInUp");
     var checkbox = document.createElement("input");
     checkbox.setAttribute("type", "checkbox");
+    checkbox.setAttribute("id", "checkbox-" + number);
     li.appendChild(checkbox);
+    var label = document.createElement("label");
+    label.setAttribute("for", "checkbox-" + number);
+    li.appendChild(label);
     var div = document.createElement("div");
     div.setAttribute("class", "li_text");
     div.append(date);
@@ -379,7 +394,7 @@ function deselect_all() {
 function setCookie() {
     var to_do = "to_do=";
     for (var i = 0; i < elements.length; i++) {
-        var text = $("li" + elements[i]).childNodes[1].innerHTML;
+        var text = $("li" + elements[i]).childNodes[2].innerHTML;
         to_do += text + ",";
     }
     if (elements.length !== 0)
@@ -400,7 +415,11 @@ function getCookie() {
             li.setAttribute("class", "wow animated fadeInUp");
             var checkbox = document.createElement("input");
             checkbox.setAttribute("type", "checkbox");
+            checkbox.setAttribute("id", "checkbox-" + number);
             li.appendChild(checkbox);
+            var label = document.createElement("label");
+            label.setAttribute("for", "checkbox-" + number);
+            li.appendChild(label);
             var div = document.createElement("div");
             div.setAttribute("class", "li_text");
             div.append(date);
